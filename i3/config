@@ -1,0 +1,307 @@
+#    ##  ####                                  #### ##        
+#   ░░  #░░░ #                                ░##░ ░░   ##### 
+#    ##░    ░#      #####   ######  #######  ###### ## ##░░░##
+#   ░##   ###      ##░░░## ##░░░░##░░##░░░##░░░##░ ░##░##  ░##
+#   ░##  ░░░ #    ░##  ░░ ░##   ░## ░##  ░##  ░##  ░##░░######
+#   ░## #   ░#    ░##   ##░##   ░## ░##  ░##  ░##  ░## ░░░░░##
+#   ░##░ ####     ░░##### ░░######  ###  ░##  ░##  ░##  ##### 
+#   ░░  ░░░░       ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░  
+
+### Andrew Fila Custom i3 config ###
+
+## Variables
+
+set $mod Mod4
+set $term st
+
+
+##Workspaces
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+
+set $ws9  ""  
+set $ws10 ""
+
+
+set $monitor_left   DVI-D-0
+set $monitor_right  DP-5
+set $tv             HDMI-0
+
+#workspace binding
+workspace $ws1 output $monitor_left
+workspace $ws3 output $monitor_left
+workspace $ws5 output $monitor_left
+workspace $ws7 output $monitor_left
+
+workspace $ws2 output $monitor_right
+workspace $ws4 output $monitor_right
+workspace $ws6 output $monitor_right
+workspace $ws8 output $monitor_right
+
+workspace $ws9 output $monitor_right
+
+
+
+
+
+
+
+##border
+default_border none
+default_floating_border normal
+
+hide_edge_borders none
+
+
+##startup
+
+
+
+exec --no-startup-id xrdb ~/.Xresources
+exec --no-startup-id wal -R 
+exec --no-startup-id polybarstart
+exec --no-startup-id nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id spotify
+exec --no-startup-id xrandr --output DVI-D-0 --primary --pos 0x368 --output DP-5 --pos 1920x0 --rotate left --output HDMI-0 --off
+
+
+##Rules
+for_window [class="Spotify"] move to workspace $ws9
+for_window [class="Nitrogen"] floating enable sticky enable border normal
+
+##Font
+
+font pango:Noto Sans Mono 12 
+
+
+floating_modifier $mod
+
+
+
+
+# Set inner/outer gaps
+gaps inner 10
+gaps outer 0
+
+
+
+
+
+
+## Bindings
+
+
+
+# letter keys
+
+#bindsym $mod+a 		exec
+#bindsym $mod+Shift+a 	exec
+#
+#bindsym $mod+b 		exec
+#bindsym $mod+Shift+b 	exec
+#
+#bindsym $mod+c 		exec
+bindsym $mod+Shift+c 	reload
+#
+bindsym $mod+d 		exec --no-startup-id rofi -show drun -theme fmenu
+#bindsym $mod+Shift+d 	exec
+#
+#bindsym $mod+e 		exec
+#bindsym $mod+Shift+e 	exec
+#
+##Firefox
+bindsym $mod+f 		exec	firefox
+#bindsym $mod+Shift+f 	exec
+#
+#bindsym $mod+g 		exec
+#bindsym $mod+Shift+g 	exec
+#
+#bindsym $mod+h		exec
+#bindsym $mod+Shift+h  	exec
+#
+bindsym $mod+i 		resize shrink height 5 px or 5 ppt
+#bindsym $mod+Shift+i	exec
+#
+#bindsym $mod+j 		exec
+#bindsym $mod+Shift+j 	exec
+#
+#bindsym $mod+k		exec
+#bindsym $mod+Shift+k 	exec
+
+##LIGHT MODES
+bindsym $mod+l      mode "$light_mode"
+set $light_mode 1. on, 2. Red, 3. RGB, 4. Weed, 5. Grape, 6. Bright White, 7. Candle Light, 8. Mid White
+mode "$light_mode" {
+    bindsym 1 exec --no-startup-id lifx toggle, mode "default"
+    bindsym 2 exec --no-startup-id lifx scene 0, mode "default"
+    bindsym 3 exec --no-startup-id lifx scene 1, mode "default"
+    bindsym 4 exec --no-startup-id lifx scene 2, mode "default"
+    bindsym 5 exec --no-startup-id lifx scene 3, mode "default"
+    bindsym 6 exec --no-startup-id lifx white 1 9000, mode "default"
+    bindsym 7 exec --no-startup-id lifx white 1 1500, mode "default"
+    bindsym 8 exec --no-startup-id lifx white 1 4500, mode "default"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+
+#bindsym $mod+Shift+l 	exec
+#
+
+
+
+##DISPLAY MODES
+bindsym $mod+m 	        mode "$display_mode"
+set $display_mode 1. standard, 2. theater
+mode "$display_mode" {
+    bindsym 1 exec --no-startup-id wrkspace, mode "default"
+    bindsym 2 exec --no-startup-id theater; workspace $ws10, mode "default"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+#bindsym $mod+Shift+m 	exec
+
+
+
+
+
+#bindsym $mod+n 		exec
+#bindsym $mod+Shift+n 	exec
+#
+bindsym $mod+o 		resize grow width 5 px or 5 ppt
+
+##CHANGE SINK
+bindsym $mod+Shift+o    mode "$mvSink"
+set $mvSink 1. Headphones, 2. TV
+mode "$mvSink" {
+    bindsym 1 exec --no-startup-id movesink 0, mode "default"
+    bindsym 2 exec --no-startup-id movesink alsa_output.pci-0000_09_00.1.hdmi-stereo-extra1, mode "default"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+
+
+#
+#bindsym $mod+p 		exec
+bindsym $mod+Shift+p 	exec --no-startup-id polybar DP & polybar DVI  &
+#
+##kill focused window
+bindsym $mod+q 		kill		
+#bindsym $mod+Shift+q 	exec
+#
+#bindsym $mod+r 		exec
+bindsym $mod+Shift+r 	restart
+bindsym $mod+Ctrl+r	exec --no-startup-id shutdown -r now
+#
+##Spotify
+bindsym $mod+s 		workspace $ws9
+bindsym $mod+Shift+s 	exec spotify
+#
+bindsym $mod+t 		exec --no-startup-id pkill compton
+bindsym $mod+Shift+t 	exec --no-startup-id compton -b
+#
+bindsym $mod+u 		resize grow height 5 px or 5 ppt
+#bindsym $mod+Shift+u 	exec
+#
+#bindsym $mod+v 		exec
+#bindsym $mod+Shift+v 	exec
+#
+#bindsym $mod+w 		exec
+#bindsym $mod+Shift+w 	exec
+#
+#bindsym $mod+x 		exec
+#bindsym $mod+Shift+x 	exec
+#
+bindsym $mod+y 		resize shrink width 5 px or 5 ppt
+#bindsym $mod+Shift+y 	exec
+#
+bindsym $mod+z 		exec zathura
+#bindsym $mod+Shift+z 	exec
+
+
+
+# number keys
+
+bindsym $mod+1		    workspace $ws1	
+bindsym $mod+Shift+1	move container to workspace $ws1
+
+bindsym $mod+2		    workspace $ws2	
+bindsym $mod+Shift+2	move container to workspace $ws2
+
+bindsym $mod+3		    workspace $ws3	
+bindsym $mod+Shift+3	move container to workspace $ws3
+
+bindsym $mod+4		    workspace $ws4	
+bindsym $mod+Shift+4	move container to workspace $ws4
+
+bindsym $mod+5		    workspace $ws5	
+bindsym $mod+Shift+5	move container to workspace $ws5
+
+bindsym $mod+6		    workspace $ws6	
+bindsym $mod+Shift+6	move container to workspace $ws6
+
+bindsym $mod+7		    workspace $ws7	
+bindsym $mod+Shift+7	move container to workspace $ws7
+
+bindsym $mod+8		    workspace $ws8	
+bindsym $mod+Shift+8	move container to workspace $ws8
+
+# focus
+
+bindsym $mod+Up 	focus up
+bindsym $mod+Shift+Up	move up
+bindsym $mod+Down 	focus down
+bindsym $mod+Shift+Down	move down
+bindsym $mod+Left 	focus left
+bindsym $mod+Shift+Left	move left
+bindsym $mod+Right 	focus right
+bindsym $mod+Shift+Right move right
+
+#music
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioStop exec playerctl stop
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
+
+
+
+
+
+# set shut down, restart and locking features
+bindsym $mod+0 mode "$mode_system"
+set $mode_system (e)xit, (r)eboot, (s)hutdown
+mode "$mode_system" {
+        bindsym e exec --no-startup-id i3 exit, mode "default"
+        bindsym r exec --no-startup-id shutdown -r now, mode "default"
+        bindsym s exec --no-startup-id poweroff
+
+        # exit system mode: "Enter" or "Escape"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+Return exec $term
+
+
+
+# vim:filetype=i3
+
+
+
