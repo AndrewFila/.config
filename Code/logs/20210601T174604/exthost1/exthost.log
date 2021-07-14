@@ -1,0 +1,6 @@
+[2021-06-01 17:46:06.134] [exthost] [info] extension host started
+[2021-06-01 17:46:06.153] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-ssh","_lower":"ms-vscode-remote.remote-ssh"},"activationEvent":"onResolveRemoteAuthority:ssh-remote"}
+[2021-06-01 17:46:06.153] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension
+[2021-06-01 17:47:06.990] [exthost] [info] extension host started
+[2021-06-01 17:47:07.008] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-ssh","_lower":"ms-vscode-remote.remote-ssh"},"activationEvent":"onResolveRemoteAuthority:ssh-remote"}
+[2021-06-01 17:47:07.008] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension

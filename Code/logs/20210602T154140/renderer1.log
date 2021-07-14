@@ -1,0 +1,1 @@
+[2021-06-02 16:05:26.003] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/fila/projects/web/homepage/.vscode'

@@ -1,0 +1,44 @@
+/**
+ * ROFI Color theme
+ * User: Qball
+ * Copyright: Dave Davenport
+ */
+* {
+    background-color:   #0e6655;
+    border-color:       White;
+    text-color:         White;
+    font:            	"Noto Sans Mono 12";
+}
+
+#window {
+    anchor:     center;
+    location:   center;
+    width:      100%;
+    height:     100%;
+    padding:    0px;
+    children:   [ horibox ];
+}
+
+#horibox {
+    orientation: vertical;
+    children:   [ prompt, entry, listview ];
+}
+
+#listview {
+    layout:     vertical;
+    width:     20%;
+    spacing:    5px;
+    lines:      100;
+}
+
+#entry {
+    expand:     false;
+    width:      10em;
+}
+
+#element {
+    padding: 2px 2px;
+}
+#element selected {
+    background-color: #138d75;
+}

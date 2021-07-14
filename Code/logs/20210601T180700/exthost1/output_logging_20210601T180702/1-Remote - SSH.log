@@ -1,0 +1,111 @@
+[18:07:02.114] Log Level: 2
+[18:07:02.116] remote-ssh@0.64.0
+[18:07:02.116] linux x64
+[18:07:02.117] SSH Resolver called for "ssh-remote+frontier", attempt 1
+[18:07:02.117] "remote.SSH.useLocalServer": true
+[18:07:02.118] "remote.SSH.sshPath": undefined
+[18:07:02.118] "remote.SSH.sshConfigurationFile": undefined
+[18:07:02.118] "remote.SSH.useFlock": true
+[18:07:02.118] "remote.SSH.lockfilesInTmp": false
+[18:07:02.118] "remote.SSH.localServerDownload": auto
+[18:07:02.118] "remote.SSH.remoteServerListenOnSocket": false
+[18:07:02.119] "remote.SSH.showLoginTerminal": false
+[18:07:02.119] "remote.SSH.defaultExtensions": []
+[18:07:02.119] SSH Resolver called for host: frontier
+[18:07:02.119] Setting up SSH remote "frontier"
+[18:07:02.122] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[18:07:02.130] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[18:07:02.132] Using commit id "ea3859d4ba2f3e577a159bc91e3074c5d85c0523" and quality "stable" for server
+[18:07:02.134] Install and start server if needed
+[18:07:02.147] Checking ssh with "ssh -V"
+[18:07:02.153] > OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+
+[18:07:02.155] askpass server listening on /run/user/1000/vscode-ssh-askpass-89eb65791a07ee614c9d4c7083efc65b4ae3d47a.sock
+[18:07:02.155] Spawning local server with {"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-444d833c03c079e95da6a4934cbb6a57d043ab40.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","38111","-o","ConnectTimeout=15","frontier"],"dataFilePath":"/home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json"}
+[18:07:02.155] Local server env: {"DISPLAY":"1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_MAIN":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-89eb65791a07ee614c9d4c7083efc65b4ae3d47a.sock"}
+[18:07:02.159] Spawned 1729
+[18:07:02.239] > local-server> Spawned ssh: 1737
+[18:07:02.241] stderr> OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+[18:07:02.368] stderr> debug1: Server host key: ssh-ed25519 SHA256:+CrTZn2eMVQHb+kUIoq+20+vmwatSHMyop4oni5I5bo
+[18:07:02.527] stderr> Authenticated to frontiercanna.biz ([104.238.164.227]:22).
+[18:07:02.690] > Linux Frontier 4.19.0-14-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64
+> 
+> The programs included with the Debian GNU/Linux system are free software;
+> the exact distribution terms for each program are described in the
+> individual files in /usr/share/doc/*/copyright.
+> 
+> Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+> permitted by applicable law.
+[18:07:02.739] > ready: 82fb16e5ad85
+[18:07:02.760] > Linux 4.19.0-14-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30)
+[18:07:02.760] Platform: linux
+[18:07:02.814] > 82fb16e5ad85: running
+[18:07:02.877] > Acquiring lock on /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/vscode-remote-lock.root.ea3859d4ba2f3e577a159bc91e3074c5d85c0523
+[18:07:02.907] > Found existing installation at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523...
+> Checking /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.log and /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.pid for a running server
+[18:07:02.908] > Looking for server with pid: 24394
+[18:07:02.941] > Found running server...
+[18:07:02.943] >  
+> *
+> * Reminder: You may only use this software with Visual Studio family products,
+> * as described in the license (https://go.microsoft.com/fwlink/?linkid=2077057)
+> *
+>  
+[18:07:03.021] > Checking server status on port 35667 with wget
+[18:07:03.075] > 82fb16e5ad85: start
+> sshAuthSock====
+> webUiAccessToken====
+> listeningOn==35667==
+> osReleaseId==debian==
+> arch==x86_64==
+> tmpDir==/run/user/0==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> extInstallTime====
+> serverStartTime====
+> connectionToken==aa1a1111-1111-1111-aaa1-1a11aa11a111==
+> 82fb16e5ad85: end
+[18:07:03.076] Received install output: 
+sshAuthSock====
+webUiAccessToken====
+listeningOn==35667==
+osReleaseId==debian==
+arch==x86_64==
+tmpDir==/run/user/0==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+extInstallTime====
+serverStartTime====
+connectionToken==aa1a1111-1111-1111-aaa1-1a11aa11a111==
+
+[18:07:03.077] Remote server is listening on 35667
+[18:07:03.077] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":35667},"osReleaseId":"debian","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","tmpDir":"/run/user/0","platform":"linux","connectionToken":"aa1a1111-1111-1111-aaa1-1a11aa11a111"},"installUnpackCode":""}
+[18:07:03.078] Persisting server connection details to /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[18:07:03.079] Starting forwarding server. localPort 34257 -> socksPort 38111 -> remotePort 35667
+[18:07:03.079] Forwarding server listening on 34257
+[18:07:03.080] Waiting for ssh tunnel to be ready
+[18:07:03.080] [Forwarding server 34257] Got connection 0
+[18:07:03.081] Tunneled 35667 to local port 34257
+[18:07:03.081] Resolved "ssh-remote+frontier" to "127.0.0.1:34257"
+[18:07:03.099] ------
+
+
+
+
+[18:07:03.132] [Forwarding server 34257] Got connection 1
+[18:07:03.132] [Forwarding server 34257] Got connection 2
+[18:07:04.108] [Forwarding server 34257] Got connection 3
+[18:07:11.197] Unhandled rejection: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[18:07:11.209] Unhandled rejection: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)

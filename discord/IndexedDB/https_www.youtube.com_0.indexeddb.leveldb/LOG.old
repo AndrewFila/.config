@@ -1,0 +1,5 @@
+2021/01/27-14:59:23.131 9eae Reusing MANIFEST /home/fila/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/27-15:04:47.953 11a8c Level-0 table #5: started
+2021/01/27-15:04:47.960 11a8c Level-0 table #5: 1325 bytes OK
+2021/01/27-15:04:47.974 11a8c Delete type=0 #3
+2021/01/27-15:04:47.974 11a8c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

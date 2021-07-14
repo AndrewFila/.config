@@ -1,0 +1,72 @@
+!SESSION 2020-12-03 12:04:23.682 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.8
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/fila/.config/Code/User/workspaceStorage/0a2525385c6382e07da6c61365bc694a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.387
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.482
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.511
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.512
+!MESSAGE Initializing Java Language Server 0.65.0.202011190841
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.607
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.626
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.633
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.645
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:25.686
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.194
+!MESSAGE Workspace initialized in 562ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.252
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.266
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.268
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.271
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.275
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.864
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.875
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.878
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.882
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.896
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-12-03 12:04:26.902
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 4 566 2020-12-03 12:04:26.983
+!MESSAGE Workspace was not properly initialized or has already shutdown.

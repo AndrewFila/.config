@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Wal",
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "explorer.confirmDelete": false,
+    "python.languageServer": "Microsoft",
+    "glassit.alpha": 220,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "/bin/php7"
+    
+}

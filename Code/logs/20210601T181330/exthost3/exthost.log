@@ -1,0 +1,32 @@
+[2021-06-01 18:13:38.437] [exthost] [info] extension host started
+[2021-06-01 18:13:38.450] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-ssh","_lower":"ms-vscode-remote.remote-ssh"},"activationEvent":"onResolveRemoteAuthority:ssh-remote"}
+[2021-06-01 18:13:38.451] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension
+[2021-06-01 18:13:39.940] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-01 18:13:39.940] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-01 18:13:39.948] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-06-01 18:13:39.948] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-06-01 18:13:39.955] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-06-01 18:13:39.955] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-06-01 18:13:40.102] [exthost] [info] eager extensions activated
+[2021-06-01 18:13:40.103] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-containers","_lower":"ms-vscode-remote.remote-containers"},"activationEvent":"onStartupFinished"}
+[2021-06-01 18:13:40.104] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-containers-0.155.1/dist/extension
+[2021-06-01 18:13:40.165] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-wsl","_lower":"ms-vscode-remote.remote-wsl"},"activationEvent":"onStartupFinished"}
+[2021-06-01 18:13:40.166] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-wsl-0.52.0/dist/extension
+[2021-06-01 18:13:41.021] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-01 18:13:41.021] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-01 18:13:58.519] [exthost] [info] extension host started
+[2021-06-01 18:13:58.537] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-ssh","_lower":"ms-vscode-remote.remote-ssh"},"activationEvent":"onResolveRemoteAuthority:ssh-remote"}
+[2021-06-01 18:13:58.537] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension
+[2021-06-01 18:13:59.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-01 18:13:59.400] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-01 18:13:59.405] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2021-06-01 18:13:59.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/extensionMain.js
+[2021-06-01 18:13:59.412] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"extensionId":{"value":"PKief.material-icon-theme","_lower":"pkief.material-icon-theme"},"activationEvent":"*"}
+[2021-06-01 18:13:59.412] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/pkief.material-icon-theme-4.7.0/dist/extension
+[2021-06-01 18:14:00.245] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-01 18:14:00.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-01 18:14:00.473] [exthost] [info] eager extensions activated
+[2021-06-01 18:14:00.476] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-containers","_lower":"ms-vscode-remote.remote-containers"},"activationEvent":"onStartupFinished"}
+[2021-06-01 18:14:00.476] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-containers-0.155.1/dist/extension
+[2021-06-01 18:14:00.574] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl {"startup":false,"extensionId":{"value":"ms-vscode-remote.remote-wsl","_lower":"ms-vscode-remote.remote-wsl"},"activationEvent":"onStartupFinished"}
+[2021-06-01 18:14:00.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fila/.vscode/extensions/ms-vscode-remote.remote-wsl-0.52.0/dist/extension

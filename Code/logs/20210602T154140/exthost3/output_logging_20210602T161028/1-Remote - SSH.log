@@ -1,0 +1,41 @@
+[16:10:28.806] Log Level: 2
+[16:10:28.808] remote-ssh@0.64.0
+[16:10:28.808] linux x64
+[16:10:28.809] SSH Resolver called for "ssh-remote+frontier", attempt 1
+[16:10:28.810] "remote.SSH.useLocalServer": true
+[16:10:28.810] "remote.SSH.sshPath": undefined
+[16:10:28.810] "remote.SSH.sshConfigurationFile": undefined
+[16:10:28.810] "remote.SSH.useFlock": true
+[16:10:28.810] "remote.SSH.lockfilesInTmp": false
+[16:10:28.810] "remote.SSH.localServerDownload": auto
+[16:10:28.811] "remote.SSH.remoteServerListenOnSocket": false
+[16:10:28.811] "remote.SSH.showLoginTerminal": false
+[16:10:28.811] "remote.SSH.defaultExtensions": []
+[16:10:28.811] SSH Resolver called for host: frontier
+[16:10:28.811] Setting up SSH remote "frontier"
+[16:10:28.814] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[16:10:28.821] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[16:10:28.822] Found local server running: {"remoteListeningOn":{"port":43195},"osReleaseId":"debian","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","tmpDir":"/run/user/0","platform":"linux","connectionToken":"11a11a11-11aa-1111-1a11-a11111111aa1","pid":123714,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-f78c9ad019e44a8de430c4a545efd33c56a91105.sock","socksPort":33429,"startupTime":1622664602640}
+[16:10:28.827] Found running server - short-circuiting install
+[16:10:28.829] Starting forwarding server. localPort 34021 -> socksPort 33429 -> remotePort 43195
+[16:10:28.829] Forwarding server listening on 34021
+[16:10:28.829] Waiting for ssh tunnel to be ready
+[16:10:28.830] [Forwarding server 34021] Got connection 0
+[16:10:28.831] Tunneled 43195 to local port 34021
+[16:10:28.831] Resolved "ssh-remote+frontier" to "127.0.0.1:34021"
+[16:10:28.849] ------
+
+
+
+
+[16:10:28.887] [Forwarding server 34021] Got connection 1
+[16:10:28.888] [Forwarding server 34021] Got connection 2
+[16:10:30.859] Unhandled rejection: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[16:10:30.888] Unhandled rejection: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[16:10:34.362] [Forwarding server 34021] Got connection 3

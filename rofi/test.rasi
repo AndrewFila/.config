@@ -1,0 +1,158 @@
+/**
+ * User: keystroke3
+ * Copyright: keystroke3
+ *
+ */
+
+configuration {
+    display-drun: "";
+    display-run: "";
+    display-window: "";
+    display-ssh: "~#";
+    show-icons: true;
+    sidebar-mode: false;
+font: "Noto Sans Mono 15";
+}
+
+@import "globals.rasi"
+
+* {
+    text-color:                      #000;
+
+    active-background:               @color0;
+
+    active-foreground:               @foreground;
+    normal-background:               @background;
+    normal-foreground:               @foreground;
+
+    urgent-background:               @color1;
+
+    urgent-foreground:               @foreground;
+    alternate-active-background:     @background;
+    alternate-active-foreground:     @foreground;
+    alternate-normal-background:     @background;
+    alternate-normal-foreground:     @foreground;
+    alternate-urgent-background:     @background;
+    alternate-urgent-foreground:     @foreground;
+
+    selected-active-background:      @color1;
+
+    selected-active-foreground:      @foreground;
+
+    selected-normal-background:      #e9ecefff;
+
+    selected-normal-foreground:      #343a40;
+    selected-urgent-background:      #567843;
+
+    selected-urgent-foreground:      @foreground;
+
+    background-color:                #00000000;
+background:                          #00000000;
+foreground:                          #fff;
+spacing:                             0;
+}
+
+window {
+    location: center;
+    anchor: center;
+    height: 100%;
+    width: 100%;
+    orientation: vertical;
+    children: [mainbox];
+    border: 2px 2px 2px 0px;
+    border-color: none;
+    hide-scrollbar: true;
+}
+
+mainbox {
+    spacing: 0.2em;
+    children: [inputbar, listview];
+    padding: 10%;
+}
+
+
+
+listview {
+    spacing: 0.6em;
+    dynamic: false;
+    background-color: #0000006f;
+    cycle: true;
+    padding: 1% 0% 0% 0%;
+}
+
+inputbar {
+    border-radius: 0%;
+    padding: 1% 0% 1% 1%;
+    border-spacing: 5px 0 0 0;
+    border: 1px;
+    spacing: 10px;
+    margin: 5px 0 10px;
+    border-color: none;
+    background-color: #ced4dadf;
+}
+
+entry{
+    padding: 4px 2px 0px 0px;
+}
+
+
+prompt{
+    padding: 5px 4px 0px 6px;
+    text-color: black;
+    border: 2px;
+    border-radius: 0%;
+    border-color: #711;
+
+}
+
+
+element {
+    padding: 10px;
+    border-radius: 0%;
+}
+
+element normal.normal {
+    background-color: @normal-background;
+    text-color: @normal-foreground;
+}
+
+element normal.urgent {
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}
+
+element normal.active {
+    background-color: @active-background;
+    text-color: @active-foreground;
+}
+
+element selected.normal {
+    background-color: @selected-normal-background;
+    text-color: @selected-normal-foreground;
+    border-color: @active-background;
+}
+
+element selected.urgent {
+    background-color: @selected-urgent-background;
+    text-color: @selected-urgent-foreground;
+}
+
+element selected.active {
+    background-color: @selected-active-background;
+    text-color: @selected-active-foreground;
+}
+
+element alternate.normal {
+    background-color: @normal-background;
+    text-color: @normal-foreground;
+}
+
+element alternate.urgent {
+    background-color: @urgent-background;
+    text-color: @urgent-foreground;
+}
+
+element alternate.active {
+    background-color: @active-background;
+    text-color: @active-foreground;
+}

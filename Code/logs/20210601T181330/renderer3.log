@@ -1,0 +1,549 @@
+[2021-06-01 18:14:01.608] [renderer3] [error] spawn git ENOENT: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:264:19)
+    at onErrorNT (internal/child_process.js:456:16)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[2021-06-01 18:55:26.394] [renderer3] [error] Illegal value for `line`: Error: Illegal value for `line`
+    at d._lineAt (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:571:740)
+    at Object.rangeOffset [as lineAt] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:570:715)
+    at /home/fila/.vscode/extensions/formulahendry.auto-rename-tag-0.1.6/packages/extension/dist/webpack:/auto-rename-tag/src/extensionMain.ts:308:41
+    at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:801)
+    at t.ExtHostDocuments.$acceptModelChanged (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:735:675)
+    at m._doInvokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:892:926)
+    at m._invokeHandler (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:892:618)
+    at m._receiveRequest (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:891:252)
+    at m._receiveOneMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:890:6)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:888:136
+    at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:801)
+    at v.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:787)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:1094:104
+    at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:801)
+    at v.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:233:787)
+    at t.PersistentProtocol._receiveMessage (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:238:1004)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:235:927
+    at l.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:801)
+    at p.acceptChunk (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:231:195)
+    at /opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:230:547
+    at Socket.t (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:240:822)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.663] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at dispatchMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69901)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:68960
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at g.onLengthData (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:60018)
+	at Socket.<anonymous> (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:59666)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.968] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214251
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at c.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214219)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:455
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at $.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:426)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:829
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:807)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.968] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203962
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203714)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:728
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:699)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:414
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:392)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.975] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214251
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at c.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214219)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:455
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at $.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:426)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:829
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:807)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.975] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203962
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203714)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:728
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:699)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:414
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:392)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.975] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214251
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at c.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:214219)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:455
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at $.provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:790:426)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:829
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideSignatureHelp (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:805:807)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.975] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203962
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:203714)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:728
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:1010
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:52:982)
+	at P.provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:779:699)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:414
+	at q._withAdapter (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:796:10)
+	at q.$provideCodeActions (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:801:392)
+	at m._doInvokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:926)
+	at m._invokeHandler (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:916:618)
+	at m._receiveRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:915:201)
+	at m._receiveOneMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:914:6)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:912:136
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:1118:104
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at v.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:233:787)
+	at t.PersistentProtocol._receiveMessage (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:238:1004)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:235:927
+	at l.fire (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:46:801)
+	at p.acceptChunk (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:231:195)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:230:547
+	at Socket.t (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:240:822)
+	at Socket.emit (events.js:223:5)
+	at addChunk (_stream_readable.js:309:12)
+	at readableAddChunk (_stream_readable.js:290:11)
+	at Socket.Readable.push (_stream_readable.js:224:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:13:38.975] [renderer3] [error] Cannot call write after a stream was destroyed: Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destroyed
+	at doWrite (_stream_writable.js:431:19)
+	at writeOrBuffer (_stream_writable.js:419:5)
+	at Socket.Writable.write (_stream_writable.js:309:11)
+	at m.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:45:61185)
+	at d.write (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:69236)
+	at d.sendRequest (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71641)
+	at d.sendNextRequests (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71422)
+	at d.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:71269)
+	at h.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:72817)
+	at g.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:75703)
+	at T.executeImpl (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240940)
+	at T.execute (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:240526)
+	at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:168562
+	at _.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:254340)
+	at T.interruptGetErr (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:241008)
+	at _.provideCompletionItems (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/typescript-language-features/dist/extension.js:1:168530)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async H.provideCompletionItems (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:788:28)
+[2021-06-01 20:25:42.173] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:25:42.173] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:25:47.174] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:25:47.174] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:35999...
+[2021-06-01 20:26:04.392] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:26:04.400] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:26:09.402] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:26:17.176] [renderer3] [error] [remote-connection] The time limit has been reached for a connection. Error:
+[2021-06-01 20:26:17.176] [renderer3] [error] Error: Time limit reached
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1997:292
+[2021-06-01 20:26:17.176] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A network error occurred while trying to reconnect, will try again...
+[2021-06-01 20:26:17.176] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:26:19.264] [renderer3] [error] [remote-connection][ExtensionHost][69b42…][reconnect][127.0.0.1:35999] the handshake took longer than 10 seconds. Error:
+[2021-06-01 20:26:19.264] [renderer3] [error] Error: handshake timeout
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1989:124
+[2021-06-01 20:26:22.176] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:26:24.640] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:26:24.642] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:26:24.642] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:26:24.642] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:26:29.644] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:26:34.642] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:26:44.781] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:26:44.786] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:26:44.786] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:26:44.786] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:26:54.784] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:26:54.786] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:27:10.009] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] connecting to 127.0.0.1:36777...
+[2021-06-01 20:27:10.009] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:36777...
+[2021-06-01 20:27:10.075] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] reconnected!
+[2021-06-01 20:27:10.080] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] reconnected!
+[2021-06-01 20:27:10.097] [renderer3] [error] spawn ENOMEM: Error: spawn ENOMEM
+	at ChildProcess.spawn (internal/child_process.js:394:11)
+	at spawn (child_process.js:540:9)
+	at Object.execFile (child_process.js:224:17)
+	at Object.exec (child_process.js:145:25)
+	at n (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:946)
+	at new Promise (<anonymous>)
+	at v.findCandidatePorts (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:928)
+	at Timeout._onTimeout (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:907:482)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+[2021-06-01 20:38:40.899] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:38:40.899] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:38:45.900] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:38:45.900] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:36777...
+[2021-06-01 20:39:10.554] [renderer3] [error] [remote-connection][ExtensionHost][69b42…][reconnect][127.0.0.1:36777] the handshake took longer than 10 seconds. Error:
+[2021-06-01 20:39:10.554] [renderer3] [error] Error: handshake timeout
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1989:124
+[2021-06-01 20:39:10.554] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A network error occurred while trying to reconnect, will try again...
+[2021-06-01 20:39:10.554] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:39:15.555] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:39:15.555] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:36777...
+[2021-06-01 20:39:16.143] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] reconnected!
+[2021-06-01 20:39:16.186] [renderer3] [error] spawn ENOMEM: Error: spawn ENOMEM
+	at ChildProcess.spawn (internal/child_process.js:394:11)
+	at spawn (child_process.js:540:9)
+	at Object.execFile (child_process.js:224:17)
+	at Object.exec (child_process.js:145:25)
+	at n (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:946)
+	at new Promise (<anonymous>)
+	at v.findCandidatePorts (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:928)
+	at Timeout._onTimeout (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:907:482)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+[2021-06-01 20:40:28.263] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:40:28.264] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:40:33.264] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:40:33.264] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:36777...
+[2021-06-01 20:40:57.928] [renderer3] [error] [remote-connection][ExtensionHost][69b42…][reconnect][127.0.0.1:36777] the handshake took longer than 10 seconds. Error:
+[2021-06-01 20:40:57.928] [renderer3] [error] Error: handshake timeout
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1989:124
+[2021-06-01 20:40:57.928] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A network error occurred while trying to reconnect, will try again...
+[2021-06-01 20:40:57.928] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:40:58.822] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:40:58.829] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:41:02.928] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:41:03.829] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:41:03.830] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A promise cancelation error occurred while trying to reconnect, will try again...
+[2021-06-01 20:41:03.830] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:41:13.830] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:41:18.955] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:41:18.962] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:41:18.962] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:41:18.962] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:41:23.959] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:41:28.962] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:41:29.325] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] connecting to 127.0.0.1:45469...
+[2021-06-01 20:41:29.325] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:45469...
+[2021-06-01 20:41:29.385] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] reconnected!
+[2021-06-01 20:41:29.392] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] reconnected!
+[2021-06-01 20:41:29.404] [renderer3] [error] spawn ENOMEM: Error: spawn ENOMEM
+	at ChildProcess.spawn (internal/child_process.js:394:11)
+	at spawn (child_process.js:540:9)
+	at Object.execFile (child_process.js:224:17)
+	at Object.exec (child_process.js:145:25)
+	at n (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:946)
+	at new Promise (<anonymous>)
+	at v.findCandidatePorts (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:928)
+	at Timeout._onTimeout (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:907:482)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+[2021-06-01 20:42:26.699] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:42:26.699] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:42:31.699] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:42:31.699] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:45469...
+[2021-06-01 20:42:51.507] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] reconnected!
+[2021-06-01 20:42:51.549] [renderer3] [error] spawn ENOMEM: Error: spawn ENOMEM
+	at ChildProcess.spawn (internal/child_process.js:394:11)
+	at spawn (child_process.js:540:9)
+	at Object.execFile (child_process.js:224:17)
+	at Object.exec (child_process.js:145:25)
+	at n (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:946)
+	at new Promise (<anonymous>)
+	at v.findCandidatePorts (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:908:928)
+	at Timeout._onTimeout (/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/remoteExtensionHostProcess.js:907:482)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+[2021-06-01 20:47:05.762] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:47:05.762] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:47:10.762] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:47:10.762] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:45469...
+[2021-06-01 20:47:30.233] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] starting reconnecting loop. You can get more information with the trace log level.
+[2021-06-01 20:47:30.240] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:47:32.068] [renderer3] [error] [remote-connection][ExtensionHost][69b42…][reconnect][127.0.0.1:45469] the handshake took longer than 10 seconds. Error:
+[2021-06-01 20:47:32.068] [renderer3] [error] Error: handshake timeout
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1989:124
+[2021-06-01 20:47:32.068] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A network error occurred while trying to reconnect, will try again...
+[2021-06-01 20:47:32.068] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:47:35.241] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:47:37.069] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:47:50.367] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:47:50.375] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 5 seconds before reconnecting...
+[2021-06-01 20:47:50.375] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:47:50.375] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:47:55.371] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:48:00.375] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:48:10.498] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:48:10.503] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:48:10.503] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:48:10.503] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:48:20.502] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:48:20.508] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:48:35.632] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:48:35.639] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:48:35.640] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:48:35.640] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:48:45.636] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:48:45.642] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:49:00.765] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:49:00.772] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:49:00.772] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:49:00.772] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:49:10.769] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:49:10.775] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:49:25.895] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:49:25.902] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:49:25.902] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] A temporarily not available error occurred while trying to reconnect, will try again...
+[2021-06-01 20:49:25.902] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] waiting for 10 seconds before reconnecting...
+[2021-06-01 20:49:35.896] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] resolving connection...
+[2021-06-01 20:49:35.920] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] resolving connection...
+[2021-06-01 20:49:36.938] [renderer3] [info] [remote-connection][Management   ][85218…][reconnect] connecting to 127.0.0.1:34299...
+[2021-06-01 20:49:36.939] [renderer3] [info] [remote-connection][ExtensionHost][69b42…][reconnect] connecting to 127.0.0.1:34299...
+[2021-06-01 20:49:37.319] [renderer3] [error] [remote-connection][Management   ][85218…][reconnect][127.0.0.1:34299] received error control message when negotiating connection. Error:
+[2021-06-01 20:49:37.321] [renderer3] [error] Error: Connection error: Unknown reconnection token.
+    at D (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1997:697)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1990:507
+    at c.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:99:696)
+    at fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:448:356)
+    at t.PersistentProtocol._receiveMessage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:453:580)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:452:647
+    at c.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:99:696)
+    at g.acceptChunk (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:445:789)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:445:141
+    at Socket.t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:389)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:49:37.321] [renderer3] [error] [remote-connection][Management   ][85218…][reconnect] A permanent error occurred in the reconnecting loop! Will give up now! Error:
+[2021-06-01 20:49:37.321] [renderer3] [error] Error: Connection error: Unknown reconnection token.
+    at D (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1997:697)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1990:507
+    at c.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:99:696)
+    at fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:448:356)
+    at t.PersistentProtocol._receiveMessage (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:453:580)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:452:647
+    at c.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:99:696)
+    at g.acceptChunk (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:445:789)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:445:141
+    at Socket.t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:389)
+    at Socket.emit (events.js:223:5)
+    at addChunk (_stream_readable.js:309:12)
+    at readableAddChunk (_stream_readable.js:290:11)
+    at Socket.Readable.push (_stream_readable.js:224:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:181:23)
+[2021-06-01 20:49:52.327] [renderer3] [error] command 'opensshremotes.openEmptyWindow' not found: Error: command 'opensshremotes.openEmptyWindow' not found
+    at u._tryExecuteCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:893)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:774
+[2021-06-01 20:49:58.514] [renderer3] [error] command 'opensshremotes.openEmptyWindow' not found: Error: command 'opensshremotes.openEmptyWindow' not found
+    at u._tryExecuteCommand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:893)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:4189:774

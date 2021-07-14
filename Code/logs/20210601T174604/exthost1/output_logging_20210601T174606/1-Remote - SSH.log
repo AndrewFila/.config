@@ -1,0 +1,169 @@
+[17:46:06.198] Log Level: 2
+[17:46:06.199] remote-ssh@0.64.0
+[17:46:06.199] linux x64
+[17:46:06.200] SSH Resolver called for "ssh-remote+frontier", attempt 1
+[17:46:06.201] "remote.SSH.useLocalServer": true
+[17:46:06.201] "remote.SSH.sshPath": undefined
+[17:46:06.201] "remote.SSH.sshConfigurationFile": undefined
+[17:46:06.201] "remote.SSH.useFlock": true
+[17:46:06.201] "remote.SSH.lockfilesInTmp": false
+[17:46:06.201] "remote.SSH.localServerDownload": auto
+[17:46:06.202] "remote.SSH.remoteServerListenOnSocket": false
+[17:46:06.202] "remote.SSH.showLoginTerminal": false
+[17:46:06.202] "remote.SSH.defaultExtensions": []
+[17:46:06.202] SSH Resolver called for host: frontier
+[17:46:06.202] Setting up SSH remote "frontier"
+[17:46:06.205] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[17:46:06.212] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[17:46:06.213] Using commit id "ea3859d4ba2f3e577a159bc91e3074c5d85c0523" and quality "stable" for server
+[17:46:06.216] Install and start server if needed
+[17:46:06.219] Checking ssh with "ssh -V"
+[17:46:06.225] > OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+
+[17:46:06.228] askpass server listening on /run/user/1000/vscode-ssh-askpass-9e672c12fd990fae4235889f31eff734652616bb.sock
+[17:46:06.228] Spawning local server with {"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-50aa02768feebb95a0df1a90c97c29fc99b0896f.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","41679","-o","ConnectTimeout=15","frontier"],"dataFilePath":"/home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json"}
+[17:46:06.228] Local server env: {"DISPLAY":"1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_MAIN":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-9e672c12fd990fae4235889f31eff734652616bb.sock"}
+[17:46:06.230] Spawned 10346
+[17:46:06.298] > local-server> Spawned ssh: 10355
+[17:46:06.300] stderr> OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+[17:46:06.383] stderr> debug1: Server host key: ssh-ed25519 SHA256:+CrTZn2eMVQHb+kUIoq+20+vmwatSHMyop4oni5I5bo
+[17:46:06.528] stderr> Authenticated to frontiercanna.biz ([104.238.164.227]:22).
+[17:46:06.646] > Linux Frontier 4.19.0-14-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64
+> 
+> The programs included with the Debian GNU/Linux system are free software;
+> the exact distribution terms for each program are described in the
+> individual files in /usr/share/doc/*/copyright.
+> 
+> Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+> permitted by applicable law.
+[17:46:06.654] > ready: d110713c1e1f
+[17:46:06.667] > Linux 4.19.0-14-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30)
+[17:46:06.668] Platform: linux
+[17:46:06.710] > d110713c1e1f: running
+[17:46:06.801] > Acquiring lock on /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/vscode-remote-lock.root.ea3859d4ba2f3e577a159bc91e3074c5d85c0523
+[17:46:06.810] > Found existing installation at /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523...
+> Checking /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.log and /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.pid for a running server
+[17:46:06.811] > Looking for server with pid: 24394
+[17:46:06.847] > Found running server...
+[17:46:06.849] >  
+> *
+> * Reminder: You may only use this software with Visual Studio family products,
+> * as described in the license (https://go.microsoft.com/fwlink/?linkid=2077057)
+> *
+>  
+[17:46:06.930] > Checking server status on port 35667 with wget
+[17:46:06.970] > d110713c1e1f: start
+> sshAuthSock====
+> webUiAccessToken====
+> listeningOn==35667==
+> osReleaseId==debian==
+> arch==x86_64==
+> tmpDir==/run/user/0==
+> platform==linux==
+> unpackResult====
+> didLocalDownload==0==
+> downloadTime====
+> installTime====
+> extInstallTime====
+> serverStartTime====
+> connectionToken==aa1a1111-1111-1111-aaa1-1a11aa11a111==
+> d110713c1e1f: end
+[17:46:06.971] Received install output: 
+sshAuthSock====
+webUiAccessToken====
+listeningOn==35667==
+osReleaseId==debian==
+arch==x86_64==
+tmpDir==/run/user/0==
+platform==linux==
+unpackResult====
+didLocalDownload==0==
+downloadTime====
+installTime====
+extInstallTime====
+serverStartTime====
+connectionToken==aa1a1111-1111-1111-aaa1-1a11aa11a111==
+
+[17:46:06.971] Remote server is listening on 35667
+[17:46:06.971] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":35667},"osReleaseId":"debian","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","tmpDir":"/run/user/0","platform":"linux","connectionToken":"aa1a1111-1111-1111-aaa1-1a11aa11a111"},"installUnpackCode":""}
+[17:46:06.972] Persisting server connection details to /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[17:46:06.973] Starting forwarding server. localPort 36647 -> socksPort 41679 -> remotePort 35667
+[17:46:06.973] Forwarding server listening on 36647
+[17:46:06.973] Waiting for ssh tunnel to be ready
+[17:46:06.974] [Forwarding server 36647] Got connection 0
+[17:46:06.975] Tunneled 35667 to local port 36647
+[17:46:06.975] Resolved "ssh-remote+frontier" to "127.0.0.1:36647"
+[17:46:06.999] ------
+
+
+
+
+[17:46:07.029] [Forwarding server 36647] Got connection 1
+[17:46:07.029] [Forwarding server 36647] Got connection 2
+[17:46:32.132] [Forwarding server 36647] Got connection 3
+[17:46:37.488] ------
+
+
+
+
+[17:46:37.488] SSH Resolver called for "ssh-remote+frontier", attempt 2, (Reconnection)
+[17:46:37.488] SSH Resolver called for host: frontier
+[17:46:37.488] Setting up SSH remote "frontier"
+[17:46:37.490] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[17:46:37.491] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[17:46:37.492] Found local server running: {"remoteListeningOn":{"port":35667},"osReleaseId":"debian","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","tmpDir":"/run/user/0","platform":"linux","connectionToken":"aa1a1111-1111-1111-aaa1-1a11aa11a111","pid":10346,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-50aa02768feebb95a0df1a90c97c29fc99b0896f.sock","socksPort":41679,"startupTime":1622583966230}
+[17:46:37.492] Running server is stale. Ignoring
+[17:46:37.492] Using commit id "ea3859d4ba2f3e577a159bc91e3074c5d85c0523" and quality "stable" for server
+[17:46:37.495] Install and start server if needed
+[17:46:37.499] askpass server listening on /run/user/1000/vscode-ssh-askpass-adb22733d022f755a9b89b5fdeb959d0b65ccbfa.sock
+[17:46:37.499] Spawning local server with {"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-05a4a2c0521fe1653f3920f5311f4bb1cf9d1274.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","37191","-o","ConnectTimeout=15","frontier"],"dataFilePath":"/home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json"}
+[17:46:37.499] Local server env: {"DISPLAY":"1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_MAIN":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-adb22733d022f755a9b89b5fdeb959d0b65ccbfa.sock"}
+[17:46:37.503] Spawned 10559
+[17:46:37.583] > local-server> Spawned ssh: 10567
+[17:46:37.585] stderr> OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+[17:46:41.745] > local-server> Timed out
+[17:46:41.747] Local server exit: 0
+[17:46:52.606] stderr> Connection timed out during banner exchange
+[17:46:52.606] stderr> Connection to 104.238.164.227 port 22 timed out
+[17:46:52.607] > local-server> ssh child died, shutting down
+[17:46:52.611] Local server exit: 0
+[17:46:52.612] Received install output: OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021
+Connection timed out during banner exchange
+Connection to 104.238.164.227 port 22 timed out
+
+[17:46:52.614] Resolver error: Error: The connection timed out
+	at Function.Offline (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:64180)
+	at /home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:61869
+	at Object.t.handleInstallOutput (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:62144)
+	at Object.t.tryInstallWithLocalServer (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:405581)
+	at processTicksAndRejections (internal/process/task_queues.js:94:5)
+	at async /home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:310867
+	at async Object.t.withShowDetailsEvent (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:406337)
+	at async /home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:404105
+	at async S (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:400873)
+	at async Object.t.resolveWithLocalServer (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:403732)
+	at async Object.t.resolve (/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:1:314879)
+	at async /home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/extension.js:127:110431
+[17:46:52.617] ------
+
+
+
+
+[17:46:57.632] ------
+
+
+
+
+[17:46:57.632] SSH Resolver called for "ssh-remote+frontier", attempt 3, (Reconnection)
+[17:46:57.632] SSH Resolver called for host: frontier
+[17:46:57.633] Setting up SSH remote "frontier"
+[17:46:57.633] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[17:46:57.634] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[17:46:57.634] Using commit id "ea3859d4ba2f3e577a159bc91e3074c5d85c0523" and quality "stable" for server
+[17:46:57.637] Install and start server if needed
+[17:46:57.641] askpass server listening on /run/user/1000/vscode-ssh-askpass-8e0559f6c5bcf76b69b921a1604edbca79376678.sock
+[17:46:57.641] Spawning local server with {"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-700d6e3c2dd7d40a8cb31a83604eec4015a2c601.sock","sshCommand":"ssh","sshArgs":["-v","-T","-D","43195","-o","ConnectTimeout=15","frontier"],"dataFilePath":"/home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json"}
+[17:46:57.641] Local server env: {"DISPLAY":"1","ELECTRON_RUN_AS_NODE":"1","SSH_ASKPASS":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/local-server/askpass.sh","VSCODE_SSH_ASKPASS_NODE":"/opt/visual-studio-code/code","VSCODE_SSH_ASKPASS_MAIN":"/home/fila/.vscode/extensions/ms-vscode-remote.remote-ssh-0.64.0/out/askpass-main.js","VSCODE_SSH_ASKPASS_HANDLE":"/run/user/1000/vscode-ssh-askpass-8e0559f6c5bcf76b69b921a1604edbca79376678.sock"}
+[17:46:57.645] Spawned 10691
+[17:46:57.709] > local-server> Spawned ssh: 10699
+[17:46:57.711] stderr> OpenSSH_8.6p1, OpenSSL 1.1.1k  25 Mar 2021

@@ -1,0 +1,15 @@
+2021/02/20-18:01:18.986 5290 Reusing MANIFEST /home/fila/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/20-18:01:18.987 5290 Recovering log #4
+2021/02/20-18:01:18.987 5290 Reusing old log /home/fila/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2021/02/20-18:01:53.138 7012 Level-0 table #8: started
+2021/02/20-18:01:53.145 7012 Level-0 table #8: 847 bytes OK
+2021/02/20-18:01:53.157 7012 Delete type=0 #4
+2021/02/20-18:01:53.157 7012 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/20-18:01:53.157 7012 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 77 : 1
+2021/02/20-18:01:53.157 7012 Compacting 1@1 + 1@2 files
+2021/02/20-18:01:53.164 7012 Generated table #9@1: 17 keys, 499 bytes
+2021/02/20-18:01:53.164 7012 Compacted 1@1 + 1@2 files => 499 bytes
+2021/02/20-18:01:53.173 7012 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/20-18:01:53.173 7012 Delete type=2 #5
+2021/02/20-18:01:53.173 7012 Delete type=2 #8
+2021/02/20-18:01:53.173 7012 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 77 : 1 .. (end); will stop at (end)

@@ -1,0 +1,32 @@
+[20:55:35.754] Log Level: 2
+[20:55:35.755] remote-ssh@0.64.0
+[20:55:35.756] linux x64
+[20:55:35.756] SSH Resolver called for "ssh-remote+frontier", attempt 1
+[20:55:35.757] "remote.SSH.useLocalServer": true
+[20:55:35.757] "remote.SSH.sshPath": undefined
+[20:55:35.757] "remote.SSH.sshConfigurationFile": undefined
+[20:55:35.757] "remote.SSH.useFlock": true
+[20:55:35.757] "remote.SSH.lockfilesInTmp": false
+[20:55:35.758] "remote.SSH.localServerDownload": auto
+[20:55:35.758] "remote.SSH.remoteServerListenOnSocket": false
+[20:55:35.758] "remote.SSH.showLoginTerminal": false
+[20:55:35.758] "remote.SSH.defaultExtensions": []
+[20:55:35.758] SSH Resolver called for host: frontier
+[20:55:35.758] Setting up SSH remote "frontier"
+[20:55:35.761] Acquiring local install lock: /tmp/vscode-remote-ssh-frontier-install.lock
+[20:55:35.767] Looking for existing server data file at /home/fila/.config/Code/User/globalStorage/ms-vscode-remote.remote-ssh/vscode-ssh-host-frontier-ea3859d4ba2f3e577a159bc91e3074c5d85c0523-0.64.0/data.json
+[20:55:35.769] Found local server running: {"remoteListeningOn":{"port":36303},"osReleaseId":"debian","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","tmpDir":"/run/user/0","platform":"linux","connectionToken":"11111111-a1a1-1111-111a-1aa1aa1111aa","pid":61089,"ipcHandlePath":"/run/user/1000/vscode-ssh-askpass-baa49f0e26a799045198f8ebb22bf5c59ca5e29e.sock","socksPort":34583,"startupTime":1622595007870}
+[20:55:35.783] Found running server - short-circuiting install
+[20:55:35.785] Starting forwarding server. localPort 45509 -> socksPort 34583 -> remotePort 36303
+[20:55:35.785] Forwarding server listening on 45509
+[20:55:35.785] Waiting for ssh tunnel to be ready
+[20:55:35.786] [Forwarding server 45509] Got connection 0
+[20:55:35.786] Tunneled 36303 to local port 45509
+[20:55:35.787] Resolved "ssh-remote+frontier" to "127.0.0.1:45509"
+[20:55:35.805] ------
+
+
+
+
+[20:55:35.831] [Forwarding server 45509] Got connection 1
+[20:55:35.832] [Forwarding server 45509] Got connection 2
